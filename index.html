@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <main>
+        <div>
+            <a href="index.html"><img src="imagenes/Logo.png" class="logo" alt="Logo Alura"></a>
+        </div>
+        <div class="caja-texto">
+            
+            <textarea class="texto-encriptar" name="texto-encriptar" id="texto-encriptar" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+        <div class="resultado-area">
+            <div class="muñeco">
+                <img src="imagenes/Muñeco.png" class="img-muñeco" alt="Imagen Muñeco">
+                <h3 class="texto-img">Nigun mensaje fue encontrado.</h3>
+                <h4>Ingresa el texto que desees encriptar o desencriptar.</h4>
+            </div>
+            <div class="mostrar-resultado">
+                <textarea class="resultado" type="text" id="resultado"></textarea>
+            </div>
+            <div class="copiar" id="copiar" style="visibility: hidden;">
+                <input type="button" class="boton-copiar" id="boton-copiar" value="boton-copiar">
+            </div>
+        </div>
+        <div class="boton">
+            <p><img class="exclamacion" src="imagenes/Vector.png"> Solo letras minúsculas y sin acentos</p>
+            <button type="button" class="boton-a" id="boton-a">Encriptar</button>
+            <button type="button" class="boton-b" id="boton-b">Desencriptar</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <footer>
+        <p class="creador">Diseñado por Lucas Escalante © 2023</p>
+    </footer>
+</body>
+</html>

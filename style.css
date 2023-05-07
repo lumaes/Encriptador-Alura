@@ -1,0 +1,218 @@
+body{
+    background: lightcyan;
+}
+.logo{
+    margin: 20px 0;
+}
+.caja-texto{
+    margin: 10px 250px ;
+    
+}
+.texto-encriptar{
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    background: lightcyan;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    border: none; 
+    outline: none;
+}
+.texto-encriptar::placeholder{
+    color: #0A3871;
+}
+.resultado-area{
+    position: absolute;
+    width: 400px;
+    height: 610px;
+    left: 940px;
+    top: 20px;
+    background: white;
+    box-shadow: 0px 24px 32px 8px rgba(0, 0, 0, 0.32);
+    border-radius: 25px;
+}
+.muñeco{
+    display: inline-table;
+    width: auto;
+    height: auto;
+    margin: 100px 40px;   
+}
+.contenedor-resultado p{
+    color: #343A40;
+    font-size: 25px;
+}
+.texto-img{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343A40;
+}
+.muñeco h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343A40;
+}
+.resultado{
+    background: inherit;
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    top: 72px;
+    border: none;
+    margin: 0 50px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px; 
+    color: #495057;
+    outline: none;
+}
+.copiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 550px;
+    padding-left: 150px;
+}
+.boton-copiar{
+    margin-left: 0;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+    bottom: 20px;
+}
+.boton-copiar:hover{
+    width: 255px;
+    height: 53;
+    font-size: 23px;
+}
+.ocultar{
+    display: none;
+}
+.boton{
+    margin: 240px 0 0 250px;
+    padding-top: 100px;
+}
+.boton p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    font-size: 12px;
+}
+.exclamacion{
+    color: #0A3871;
+}
+.boton-a{
+    background: #0A3871;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+.boton-a:hover{
+    width: 255px;
+    height: 52px;
+    font-size: 23px;
+}
+.boton-b{
+    margin: 0 15px;
+    background: lightblue;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    font-size: 20px;
+}
+.boton-b:hover{
+    width: 255px;
+    height: 52px;
+    font-size: 23px;
+}
+.creador{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+    }  
+    main{
+        width: auto;
+      }
+      .caja-texto{
+        width: auto;
+      }
+      .texto-encriptar{
+        width: auto;
+        height: 250px;
+        position: static;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: -170px;
+        
+      }
+      .resultado-area{
+        width: 80%;
+        height: 20%;
+        margin-top: 430px;
+        margin-left: -900px;
+    
+      }
+      .img-muñeco{
+        display: none;
+      }
+      .texto-img{
+        margin-top: -70px;
+      }
+      .boton{
+        width: 100%;
+        margin: -450px auto;
+        display: inline-flex;
+        text-align: right;
+      }
+      .boton p{
+        display: none;
+      }
+      .boton-a{
+        width: 300px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 20px;
+      }
+      .boton-b{
+
+        margin-top: 50px;
+      }
+      .copiar{
+        margin-top: -300px;
+        width: auto;
+        height: 400px;
+        position: unset;
+      }
+      .boton-copiar{
+          margin-top: 440px;
+      }
+      footer{
+        width: 300px;
+      }
+      .creador{
+        width: 300px;
+         margin-top: 350px;
+
+      }
+
+}
