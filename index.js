@@ -15,6 +15,8 @@ var boton1 = document.querySelector("#boton-a");
  boton1.onclick = encriptar;
 
 function desencriptar (){ 
+    ocultar();
+    mostrar();
     var texto = document.querySelector("#texto-encriptar").value;
      var textoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
       document.querySelector(".resultado").value = textoCifrado;
